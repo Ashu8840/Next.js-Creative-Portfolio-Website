@@ -11,13 +11,11 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    template:
-      "Next.js Portfolio Created with Three.js and Tailwind CSS | %s | CodeBucks",
-    default:
-      "Next.js Portfolio Created with Three.js and Tailwind CSS by CodeBucks",
+    template: "Ayush Tripathi | Full Stack Developer Portfolio | %s",
+    default: "Ayush Tripathi | Full Stack Developer Portfolio | MERN Stack",
   },
   description:
-    "A unique creative portfolio designed by CodeBucks with cutting-edge technologies like Next.js, Tailwind CSS, Three.js, and Framer Motion. Experience the art of modern web development firsthand. Checkout CodeBucks on youtube.",
+    "Portfolio of Ayush Tripathi, a B.Tech IT student and full-stack developer skilled in MERN stack, React.js, Node.js, and modern web technologies. Explore projects, skills, and experience.",
 };
 
 export default function RootLayout({ children }) {
@@ -26,7 +24,7 @@ export default function RootLayout({ children }) {
       <body
         className={clsx(
           inter.variable,
-          "bg-background text-foreground font-inter"
+          "bg-background text-foreground font-inter",
         )}
       >
         {children}
